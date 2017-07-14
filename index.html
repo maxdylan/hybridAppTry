@@ -10,24 +10,33 @@
     <link href="intercom.css" rel="stylesheet">
     <script src="js/jquery.js" charset="utf-8"></script>
     <script type="text/javascript">
+    (function($){
+      function getUrlParam(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) return unescape(r[2]); return null;
+      }
+      var channel = getUrlParam("channel");
+      var userName = getUrlParam("username");
+      $.get("getBillList.php?channel="+channel+"&username="+userName,function(result,status){
+        console.log("====result");
+        console.log(result);
+      });
+
       $(document).ready(function(){
+
           $(".bill1").click(function(){
             console.log("click");
-            window.location.href="payDetail.html?channel=abcd1234";
+            window.location.href="payDetail.html?channel="+channel+"&username="+userName+"&bill=1";
           });
         });
+    })(jQuery);
+
     </script>
   </head>
   <body>
     <div class="container">
       <div class="header clearfix">
-        <!-- <nav>
-          <ul class="nav nav-pills pull-right">
-            <li role="presentation" class="active"><a href="#">Home</a></li>
-            <li role="presentation"><a href="#">About</a></li>
-            <li role="presentation"><a href="#">Contact</a></li>
-          </ul>
-        </nav> -->
         <h3 class="text-muted">小新对讲授权平台</h3>
       </div>
 
