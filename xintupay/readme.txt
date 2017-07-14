@@ -1,0 +1,1 @@
+xintupay used in paying on smartcar

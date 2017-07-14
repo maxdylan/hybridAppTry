@@ -1,0 +1,406 @@
+﻿[2016-07-09 14:26:05][debug] 11111111111111111111111111111111111111!
+[2016-07-09 14:26:05][debug] begin notify!
+[2016-07-09 14:26:05][debug] NativeNotify call back:{"appid":"wx849b4af35a7b7ea4","openid":"ohiZht-rU8REF5hny6znanIhCtlw","mch_id":"1275811401","is_subscribe":"Y","nonce_str":"2Tda5l31sFkCPOb6","product_id":"A711460061599005249","sign":"593B3E48C127151F5EE56C094AB38F7F"}
+[2016-07-09 14:26:06][debug] NativeNotify unifiedorder:{"appid":"wx849b4af35a7b7ea4","code_url":"weixin:\/\/wxpay\/bizpayurl?pr=fhfrr7K","mch_id":"1275811401","nonce_str":"Btj1nhOYI7aPdHS0","prepay_id":"wx20160709142606350f23a2540908375211","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"1093DB33CB648BEDA5B8B501DBFD4C9F","trade_type":"NATIVE"}
+[2016-07-09 14:26:06][debug] ReplyNotify=<xml><appid><![CDATA[wx849b4af35a7b7ea4]]></appid><err_code_des><![CDATA[OK]]></err_code_des><mch_id>1275811401</mch_id><nonce_str><![CDATA[8a25utmqi1b260y3zyv04j8miwaw489g]]></nonce_str><prepay_id><![CDATA[wx20160709142606350f23a2540908375211]]></prepay_id><result_code><![CDATA[SUCCESS]]></result_code><return_code><![CDATA[SUCCESS]]></return_code><return_msg><![CDATA[OK]]></return_msg><sign><![CDATA[3056067CDBF54AF1B092D44BAAA5389F]]></sign></xml>
+[2016-07-09 14:26:11][debug] 22222222222222222
+[2016-07-09 14:26:11][debug] begin notify
+[2016-07-09 14:26:11][debug] Notify call back:{"appid":"wx849b4af35a7b7ea4","attach":"\u5957\u9910\u8d2d\u4e70","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1275811401","nonce_str":"of92gs9kof9bwp1ra1jo6bgay51wcazt","openid":"ohiZht-rU8REF5hny6znanIhCtlw","out_trade_no":"A7114600615990052490160709142605","result_code":"SUCCESS","return_code":"SUCCESS","sign":"84FEE8E5A2095AEBC7D84A6EDC0653A3","time_end":"20160709142611","total_fee":"1","trade_type":"NATIVE","transaction_id":"4009092001201607098641558661"}
+[2016-07-09 14:26:12][debug] query:{"appid":"wx849b4af35a7b7ea4","attach":"\u5957\u9910\u8d2d\u4e70 ","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1275811401","nonce_str":"bUxkQYOgJLT6BZ2a","openid":"ohiZht-rU8REF5hny6znanIhCtlw","out_trade_no":"A7114600615990052490160709142605","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"8CB0EDBD3BBB0586E2BA92BE8B5D7FB9","time_end":"20160709142611","total_fee":"1","trade_state":"SUCCESS","trade_type":"NATIVE","transaction_id":"4009092001201607098641558661"}
+[2016-07-09 14:26:12][debug] ReplyNotify=<xml><return_code><![CDATA[SUCCESS]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>
+[2016-07-09 14:26:12][debug] resExit==
+[2016-07-09 14:26:12][debug] $res==1
+[2016-07-09 14:26:12][debug] A7114600615990052490160709142605--A711---460061599005249
+[2016-07-09 14:26:12][debug] 
+			{
+   			"appid": "5ce32242e41f04d4",
+    		"token": "C54BC3B480047854AAD1D77B18DE5672",
+    		"dt": "1468045572",
+    		"imsi": "460061599005249",
+    		"cardtype": "A711",
+    		"tid": "LCXT4009092001201607098641558661"
+			}
+[2016-07-09 14:26:12][debug] 200---2
+[2016-07-09 14:26:12][debug] $resjson->code8
+[2016-07-09 14:26:14][debug] A7114600615990052490160709142605--A711---460061599005249
+[2016-07-09 14:26:14][debug] 
+			{
+   			"appid": "5ce32242e41f04d4",
+    		"token": "895BE8B1AFF9389A6A486C3B766E2A00",
+    		"dt": "1468045574",
+    		"imsi": "460061599005249",
+    		"cardtype": "A711",
+    		"tid": "LCXT4009092001201607098641558661"
+			}
+[2016-07-09 14:26:14][debug] 200---2
+[2016-07-09 14:26:14][debug] $resjson->code8
+[2016-07-09 14:26:16][debug] A7114600615990052490160709142605--A711---460061599005249
+[2016-07-09 14:26:16][debug] 
+			{
+   			"appid": "5ce32242e41f04d4",
+    		"token": "7220409C18208FF49CBA6ADDD6035610",
+    		"dt": "1468045576",
+    		"imsi": "460061599005249",
+    		"cardtype": "A711",
+    		"tid": "LCXT4009092001201607098641558661"
+			}
+[2016-07-09 14:26:16][debug] 200---2
+[2016-07-09 14:26:16][debug] $resjson->code8
+[2016-07-09 14:26:18][debug] 充值完成----
+[2016-07-09 14:26:29][debug] 22222222222222222
+[2016-07-09 14:26:29][debug] begin notify
+[2016-07-09 14:26:29][debug] Notify call back:{"appid":"wx849b4af35a7b7ea4","attach":"\u5957\u9910\u8d2d\u4e70","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1275811401","nonce_str":"of92gs9kof9bwp1ra1jo6bgay51wcazt","openid":"ohiZht-rU8REF5hny6znanIhCtlw","out_trade_no":"A7114600615990052490160709142605","result_code":"SUCCESS","return_code":"SUCCESS","sign":"84FEE8E5A2095AEBC7D84A6EDC0653A3","time_end":"20160709142611","total_fee":"1","trade_type":"NATIVE","transaction_id":"4009092001201607098641558661"}
+[2016-07-09 14:26:29][debug] query:{"appid":"wx849b4af35a7b7ea4","attach":"\u5957\u9910\u8d2d\u4e70 ","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1275811401","nonce_str":"0uzCL6oJcU7Xv5Wy","openid":"ohiZht-rU8REF5hny6znanIhCtlw","out_trade_no":"A7114600615990052490160709142605","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"2F6BBE8998ECFBFA8F1FE2C6A768D5F9","time_end":"20160709142611","total_fee":"1","trade_state":"SUCCESS","trade_type":"NATIVE","transaction_id":"4009092001201607098641558661"}
+[2016-07-09 14:26:29][debug] ReplyNotify=<xml><return_code><![CDATA[SUCCESS]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>
+[2016-07-09 14:26:29][debug] resExit==1
+[2016-07-09 14:26:29][debug] 充值完成----
+[2016-07-09 14:27:51][debug] 11111111111111111111111111111111111111!
+[2016-07-09 14:27:51][debug] begin notify!
+[2016-07-09 14:27:51][debug] NativeNotify call back:{"appid":"wx849b4af35a7b7ea4","openid":"ohiZht-rU8REF5hny6znanIhCtlw","mch_id":"1275811401","is_subscribe":"Y","nonce_str":"JiCONkgdORq6Fr2I","product_id":"A711460060009042249","sign":"C0619B7FE0B18BA688725AE28D4D6319"}
+[2016-07-09 14:27:52][debug] NativeNotify unifiedorder:{"appid":"wx849b4af35a7b7ea4","code_url":"weixin:\/\/wxpay\/bizpayurl?pr=55aJxxA","mch_id":"1275811401","nonce_str":"k10zdpAx77QWj290","prepay_id":"wx2016070914275278da7d57d50207594888","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"69397AC69BC273E18A2E32185CAF977B","trade_type":"NATIVE"}
+[2016-07-09 14:27:52][debug] ReplyNotify=<xml><appid><![CDATA[wx849b4af35a7b7ea4]]></appid><err_code_des><![CDATA[OK]]></err_code_des><mch_id>1275811401</mch_id><nonce_str><![CDATA[ea0q16l9gqx179bqtdyqg0y6h21wgbia]]></nonce_str><prepay_id><![CDATA[wx2016070914275278da7d57d50207594888]]></prepay_id><result_code><![CDATA[SUCCESS]]></result_code><return_code><![CDATA[SUCCESS]]></return_code><return_msg><![CDATA[OK]]></return_msg><sign><![CDATA[95B7768E5058604ADF32818E7F4D71A8]]></sign></xml>
+[2016-07-09 14:27:58][debug] 22222222222222222
+[2016-07-09 14:27:58][debug] begin notify
+[2016-07-09 14:27:58][debug] Notify call back:{"appid":"wx849b4af35a7b7ea4","attach":"\u5957\u9910\u8d2d\u4e70","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1275811401","nonce_str":"541aveu998u3cfh8ydw9gl8kut3w8gwx","openid":"ohiZht-rU8REF5hny6znanIhCtlw","out_trade_no":"A7114600600090422490160709142751","result_code":"SUCCESS","return_code":"SUCCESS","sign":"2C964D17D8ADDB08C7AB9F0C46B77648","time_end":"20160709142757","total_fee":"1","trade_type":"NATIVE","transaction_id":"4009092001201607098642750543"}
+[2016-07-09 14:27:58][debug] query:{"appid":"wx849b4af35a7b7ea4","attach":"\u5957\u9910\u8d2d\u4e70 ","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1275811401","nonce_str":"WbS18c881O9WW3lX","openid":"ohiZht-rU8REF5hny6znanIhCtlw","out_trade_no":"A7114600600090422490160709142751","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"1FA32BFC5ABC9739141AA8748EDC28AE","time_end":"20160709142757","total_fee":"1","trade_state":"SUCCESS","trade_type":"NATIVE","transaction_id":"4009092001201607098642750543"}
+[2016-07-09 14:27:58][debug] ReplyNotify=<xml><return_code><![CDATA[SUCCESS]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>
+[2016-07-09 14:27:58][debug] resExit==
+[2016-07-09 14:27:58][debug] $res==1
+[2016-07-09 14:27:58][debug] A7114600600090422490160709142751--A711---460060009042249
+[2016-07-09 14:27:58][debug] 
+			{
+   			"appid": "5ce32242e41f04d4",
+    		"token": "8F3F2143948A94142B673F0A799219DA",
+    		"dt": "1468045678",
+    		"imsi": "460060009042249",
+    		"cardtype": "A711",
+    		"tid": "LCXT4009092001201607098642750543"
+			}
+[2016-07-09 14:27:58][debug] 200---2
+[2016-07-09 14:27:58][debug] {"code":0}----0
+[2016-07-09 14:27:58][debug] 充值完成----
+[2016-07-09 14:36:21][debug] 11111111111111111111111111111111111111!
+[2016-07-09 14:36:21][debug] begin notify!
+[2016-07-09 14:36:21][debug] NativeNotify call back:{"appid":"wx849b4af35a7b7ea4","openid":"ohiZht-rU8REF5hny6znanIhCtlw","mch_id":"1275811401","is_subscribe":"Y","nonce_str":"54XUcdCgngjiYVtr","product_id":"A802460061599005249","sign":"E3A4486E974754DAEDD130E76757A625"}
+[2016-07-09 14:36:22][debug] NativeNotify unifiedorder:{"appid":"wx849b4af35a7b7ea4","code_url":"weixin:\/\/wxpay\/bizpayurl?pr=7t04fEc","mch_id":"1275811401","nonce_str":"MfY8wl9KiF5arWjm","prepay_id":"wx2016070914362297fb6570430829414484","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"870BE0865321CAE5BD83230ADC3D6342","trade_type":"NATIVE"}
+[2016-07-09 14:36:22][debug] ReplyNotify=<xml><appid><![CDATA[wx849b4af35a7b7ea4]]></appid><err_code_des><![CDATA[OK]]></err_code_des><mch_id>1275811401</mch_id><nonce_str><![CDATA[z5dzenfou5gddgn54y8bjsjricfpx7h8]]></nonce_str><prepay_id><![CDATA[wx2016070914362297fb6570430829414484]]></prepay_id><result_code><![CDATA[SUCCESS]]></result_code><return_code><![CDATA[SUCCESS]]></return_code><return_msg><![CDATA[OK]]></return_msg><sign><![CDATA[8C954BC0D7FFA0C3045A6971ADB00C94]]></sign></xml>
+[2016-07-09 14:36:29][debug] 22222222222222222
+[2016-07-09 14:36:29][debug] begin notify
+[2016-07-09 14:36:29][debug] Notify call back:{"appid":"wx849b4af35a7b7ea4","attach":"79\u5143\u6d41\u91cf\u5957\u9910","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1275811401","nonce_str":"lezyy3mea2s08ed0hkae2hf2gxdnkv53","openid":"ohiZht-rU8REF5hny6znanIhCtlw","out_trade_no":"A8024600615990052490160709143621","result_code":"SUCCESS","return_code":"SUCCESS","sign":"E75D984DA3ADC78476254116610116E1","time_end":"20160709143629","total_fee":"1","trade_type":"NATIVE","transaction_id":"4009092001201607098641850853"}
+[2016-07-09 14:36:29][debug] query:{"appid":"wx849b4af35a7b7ea4","attach":"79\u5143\u6d41\u91cf\u5957\u9910 ","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1275811401","nonce_str":"Gy8WDOyQAli3p4Lh","openid":"ohiZht-rU8REF5hny6znanIhCtlw","out_trade_no":"A8024600615990052490160709143621","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"CDAC9798F7BDEA9FD0BE757A6790D2FC","time_end":"20160709143629","total_fee":"1","trade_state":"SUCCESS","trade_type":"NATIVE","transaction_id":"4009092001201607098641850853"}
+[2016-07-09 14:36:29][debug] ReplyNotify=<xml><return_code><![CDATA[SUCCESS]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>
+[2016-07-09 14:36:29][debug] resExit==
+[2016-07-09 14:36:29][debug] $res==1
+[2016-07-09 14:36:29][debug] A8024600615990052490160709143621--A802---460061599005249
+[2016-07-09 14:36:29][debug] 
+			{
+   			"appid": "5ce32242e41f04d4",
+    		"token": "2BDD96F6199427C2A086BAEFD069698A",
+    		"dt": "1468046189",
+    		"imsi": "460061599005249",
+    		"cardtype": "A802",
+    		"tid": "LCXT4009092001201607098641850853"
+			}
+[2016-07-09 14:36:29][debug] 200---2
+[2016-07-09 14:36:29][debug] $resjson->code8
+[2016-07-09 14:36:31][debug] A8024600615990052490160709143621--A802---460061599005249
+[2016-07-09 14:36:31][debug] 
+			{
+   			"appid": "5ce32242e41f04d4",
+    		"token": "0998A21EB4D50DE7C7FCB8BF2458209D",
+    		"dt": "1468046191",
+    		"imsi": "460061599005249",
+    		"cardtype": "A802",
+    		"tid": "LCXT4009092001201607098641850853"
+			}
+[2016-07-09 14:36:31][debug] 200---2
+[2016-07-09 14:36:31][debug] $resjson->code8
+[2016-07-09 14:36:33][debug] A8024600615990052490160709143621--A802---460061599005249
+[2016-07-09 14:36:33][debug] 
+			{
+   			"appid": "5ce32242e41f04d4",
+    		"token": "DBE68300C1BDA1094C2A6ED8CD01D250",
+    		"dt": "1468046193",
+    		"imsi": "460061599005249",
+    		"cardtype": "A802",
+    		"tid": "LCXT4009092001201607098641850853"
+			}
+[2016-07-09 14:36:33][debug] 200---2
+[2016-07-09 14:36:33][debug] $resjson->code8
+[2016-07-09 14:36:35][debug] 充值完成----
+[2016-07-09 14:36:46][debug] 22222222222222222
+[2016-07-09 14:36:46][debug] begin notify
+[2016-07-09 14:36:46][debug] Notify call back:{"appid":"wx849b4af35a7b7ea4","attach":"79\u5143\u6d41\u91cf\u5957\u9910","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1275811401","nonce_str":"lezyy3mea2s08ed0hkae2hf2gxdnkv53","openid":"ohiZht-rU8REF5hny6znanIhCtlw","out_trade_no":"A8024600615990052490160709143621","result_code":"SUCCESS","return_code":"SUCCESS","sign":"E75D984DA3ADC78476254116610116E1","time_end":"20160709143629","total_fee":"1","trade_type":"NATIVE","transaction_id":"4009092001201607098641850853"}
+[2016-07-09 14:36:46][debug] query:{"appid":"wx849b4af35a7b7ea4","attach":"79\u5143\u6d41\u91cf\u5957\u9910 ","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1275811401","nonce_str":"jSYj2kJIyrlQj70c","openid":"ohiZht-rU8REF5hny6znanIhCtlw","out_trade_no":"A8024600615990052490160709143621","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"2B7553134E75E0D5A4FE35B4409CE7EC","time_end":"20160709143629","total_fee":"1","trade_state":"SUCCESS","trade_type":"NATIVE","transaction_id":"4009092001201607098641850853"}
+[2016-07-09 14:36:46][debug] ReplyNotify=<xml><return_code><![CDATA[SUCCESS]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>
+[2016-07-09 14:36:46][debug] resExit==1
+[2016-07-09 14:36:46][debug] 充值完成----
+[2016-07-09 14:47:18][debug] 11111111111111111111111111111111111111!
+[2016-07-09 14:47:18][debug] begin notify!
+[2016-07-09 14:47:18][debug] NativeNotify call back:{"appid":"wx849b4af35a7b7ea4","openid":"ohiZht-rU8REF5hny6znanIhCtlw","mch_id":"1275811401","is_subscribe":"Y","nonce_str":"NSZfg3LquAAn0aok","product_id":"A711460061599005249","sign":"FE29F13D3D8146CE7D804CAD57CD8B91"}
+[2016-07-09 14:47:18][debug] NativeNotify unifiedorder:{"appid":"wx849b4af35a7b7ea4","code_url":"weixin:\/\/wxpay\/bizpayurl?pr=Y9i6MeH","mch_id":"1275811401","nonce_str":"k5JYWFiXSWPr8JAb","prepay_id":"wx201607091447183dcf3a4c890194826335","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"5204CAC298233E7B1FD0A497347705F4","trade_type":"NATIVE"}
+[2016-07-09 14:47:18][debug] ReplyNotify=<xml><appid><![CDATA[wx849b4af35a7b7ea4]]></appid><err_code_des><![CDATA[OK]]></err_code_des><mch_id>1275811401</mch_id><nonce_str><![CDATA[3rcespe5bvfylk9f6nplx80xycyt5g8r]]></nonce_str><prepay_id><![CDATA[wx201607091447183dcf3a4c890194826335]]></prepay_id><result_code><![CDATA[SUCCESS]]></result_code><return_code><![CDATA[SUCCESS]]></return_code><return_msg><![CDATA[OK]]></return_msg><sign><![CDATA[49D8491F280DBCA369FD67C834B85F95]]></sign></xml>
+[2016-07-09 14:47:24][debug] 22222222222222222
+[2016-07-09 14:47:24][debug] begin notify
+[2016-07-09 14:47:24][debug] Notify call back:{"appid":"wx849b4af35a7b7ea4","attach":"\u5957\u9910\u8d2d\u4e70","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1275811401","nonce_str":"mujjyrg08f39wqr39m6cuerdsa6u3qzz","openid":"ohiZht-rU8REF5hny6znanIhCtlw","out_trade_no":"A7114600615990052490160709144718","result_code":"SUCCESS","return_code":"SUCCESS","sign":"3FF6FB4903EFE3B1D952619E7A74A628","time_end":"20160709144724","total_fee":"1","trade_type":"NATIVE","transaction_id":"4009092001201607098643270185"}
+[2016-07-09 14:47:24][debug] query:{"appid":"wx849b4af35a7b7ea4","attach":"\u5957\u9910\u8d2d\u4e70 ","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1275811401","nonce_str":"hrRsxxgeTI6WzS5o","openid":"ohiZht-rU8REF5hny6znanIhCtlw","out_trade_no":"A7114600615990052490160709144718","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"7A8440BA79572DCF1AFB871020053FCF","time_end":"20160709144724","total_fee":"1","trade_state":"SUCCESS","trade_type":"NATIVE","transaction_id":"4009092001201607098643270185"}
+[2016-07-09 14:47:24][debug] ReplyNotify=<xml><return_code><![CDATA[SUCCESS]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>
+[2016-07-09 14:47:24][debug] resExit==
+[2016-07-09 14:47:24][debug] $res==1
+[2016-07-09 14:47:24][debug] A7114600615990052490160709144718--A711---460061599005249
+[2016-07-09 14:47:24][debug] 
+			{
+   			"appid": "5ce32242e41f04d4",
+    		"token": "57839F243A0C1C953B5C588742054931",
+    		"dt": "1468046844",
+    		"imsi": "460061599005249",
+    		"cardtype": "A711",
+    		"tid": "LCXT4009092001201607098643270185"
+			}
+[2016-07-09 14:47:24][debug] 200---2
+[2016-07-09 14:47:24][debug] {"code":0}----0
+[2016-07-09 14:47:24][debug] 充值完成----
+[2016-07-09 14:57:34][debug] 11111111111111111111111111111111111111!
+[2016-07-09 14:57:34][debug] begin notify!
+[2016-07-09 14:57:34][debug] NativeNotify call back:{"appid":"wx849b4af35a7b7ea4","openid":"ohiZht-rU8REF5hny6znanIhCtlw","mch_id":"1275811401","is_subscribe":"Y","nonce_str":"oPkEF8TSJV4ZzCh8","product_id":"A711460061599005249","sign":"8EDE62B4FEFC8A6E3BB7EED275BEBEB7"}
+[2016-07-09 14:57:34][debug] NativeNotify unifiedorder:{"appid":"wx849b4af35a7b7ea4","code_url":"weixin:\/\/wxpay\/bizpayurl?pr=ElDEzWS","mch_id":"1275811401","nonce_str":"GOoWgSSugR2bcrjf","prepay_id":"wx20160709145734e35e09d39c0110532648","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"28F9AF414731E871E7594F8849624D78","trade_type":"NATIVE"}
+[2016-07-09 14:57:34][debug] ReplyNotify=<xml><appid><![CDATA[wx849b4af35a7b7ea4]]></appid><err_code_des><![CDATA[OK]]></err_code_des><mch_id>1275811401</mch_id><nonce_str><![CDATA[350me9cllitsjs50wtj0i0t84wbl2ljy]]></nonce_str><prepay_id><![CDATA[wx20160709145734e35e09d39c0110532648]]></prepay_id><result_code><![CDATA[SUCCESS]]></result_code><return_code><![CDATA[SUCCESS]]></return_code><return_msg><![CDATA[OK]]></return_msg><sign><![CDATA[EB35414AE5704192B24C1DDF79212B7A]]></sign></xml>
+[2016-07-09 14:57:39][debug] 22222222222222222
+[2016-07-09 14:57:39][debug] begin notify
+[2016-07-09 14:57:39][debug] Notify call back:{"appid":"wx849b4af35a7b7ea4","attach":"\u5957\u9910\u8d2d\u4e70","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1275811401","nonce_str":"p6igebh5jmes5x0i3c6srxusas9ynpkh","openid":"ohiZht-rU8REF5hny6znanIhCtlw","out_trade_no":"A7114600615990052490160709145734","result_code":"SUCCESS","return_code":"SUCCESS","sign":"DC720F6437C099C7A1322AC75696E0A4","time_end":"20160709145739","total_fee":"1","trade_type":"NATIVE","transaction_id":"4009092001201607098644430232"}
+[2016-07-09 14:57:40][debug] query:{"appid":"wx849b4af35a7b7ea4","attach":"\u5957\u9910\u8d2d\u4e70 ","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1275811401","nonce_str":"k1XTM9qb5s6FY3en","openid":"ohiZht-rU8REF5hny6znanIhCtlw","out_trade_no":"A7114600615990052490160709145734","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"4F26FDE5FC3331BFD668DEBE9933A7DB","time_end":"20160709145739","total_fee":"1","trade_state":"SUCCESS","trade_type":"NATIVE","transaction_id":"4009092001201607098644430232"}
+[2016-07-09 14:57:40][debug] ReplyNotify=<xml><return_code><![CDATA[SUCCESS]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>
+[2016-07-09 14:57:40][debug] resExit==
+[2016-07-09 14:57:40][debug] $res==1
+[2016-07-09 14:57:40][debug] A7114600615990052490160709145734--A711---460061599005249
+[2016-07-09 14:57:40][debug] 
+			{
+   			"appid": "5ce32242e41f04d4",
+    		"token": "99494D66F9847054BD599633B29F57FF",
+    		"dt": "1468047460",
+    		"imsi": "460061599005249",
+    		"cardtype": "A711",
+    		"tid": "LCXT4009092001201607098644430232"
+			}
+[2016-07-09 14:57:40][debug] 200---2
+[2016-07-09 14:57:40][debug] {"code":0}----0
+[2016-07-09 14:57:40][debug] 充值完成----
+[2016-07-09 15:08:54][debug] 11111111111111111111111111111111111111!
+[2016-07-09 15:08:54][debug] begin notify!
+[2016-07-09 15:08:54][debug] NativeNotify call back:{"appid":"wx849b4af35a7b7ea4","openid":"ohiZht-rU8REF5hny6znanIhCtlw","mch_id":"1275811401","is_subscribe":"Y","nonce_str":"2bdqcM6rwanOd5vQ","product_id":"A802460061599005249","sign":"B41293C8B6036D8C75517073B880C575"}
+[2016-07-09 15:08:54][debug] NativeNotify unifiedorder:{"appid":"wx849b4af35a7b7ea4","code_url":"weixin:\/\/wxpay\/bizpayurl?pr=fAfewXF","mch_id":"1275811401","nonce_str":"NTRzIYt6ONy3uPtq","prepay_id":"wx20160709150854c04e58f3440821446480","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"98E341CC81FF8994C7593C4F5BACD980","trade_type":"NATIVE"}
+[2016-07-09 15:08:54][debug] ReplyNotify=<xml><appid><![CDATA[wx849b4af35a7b7ea4]]></appid><err_code_des><![CDATA[OK]]></err_code_des><mch_id>1275811401</mch_id><nonce_str><![CDATA[8ablzakr1srndb99hgq6o3ecs3np6xp7]]></nonce_str><prepay_id><![CDATA[wx20160709150854c04e58f3440821446480]]></prepay_id><result_code><![CDATA[SUCCESS]]></result_code><return_code><![CDATA[SUCCESS]]></return_code><return_msg><![CDATA[OK]]></return_msg><sign><![CDATA[D1BC292B4ABAE918EF2ABB7CE1A07C51]]></sign></xml>
+[2016-07-09 15:08:59][debug] 22222222222222222
+[2016-07-09 15:08:59][debug] begin notify
+[2016-07-09 15:08:59][debug] Notify call back:{"appid":"wx849b4af35a7b7ea4","attach":"79\u5143\u6d41\u91cf\u5957\u9910","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1275811401","nonce_str":"bjk6f8efro0406dhlkzitphqhh7m50m8","openid":"ohiZht-rU8REF5hny6znanIhCtlw","out_trade_no":"A8024600615990052490160709150854","result_code":"SUCCESS","return_code":"SUCCESS","sign":"7E1C120E472C2EBDCE69C94495857DC9","time_end":"20160709150859","total_fee":"1","trade_type":"NATIVE","transaction_id":"4009092001201607098644740407"}
+[2016-07-09 15:09:00][debug] query:{"appid":"wx849b4af35a7b7ea4","attach":"79\u5143\u6d41\u91cf\u5957\u9910 ","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1275811401","nonce_str":"lhvvuWJbleG1XAhq","openid":"ohiZht-rU8REF5hny6znanIhCtlw","out_trade_no":"A8024600615990052490160709150854","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"27F9AA658E68379A344E73A806147297","time_end":"20160709150859","total_fee":"1","trade_state":"SUCCESS","trade_type":"NATIVE","transaction_id":"4009092001201607098644740407"}
+[2016-07-09 15:09:00][debug] ReplyNotify=<xml><return_code><![CDATA[SUCCESS]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>
+[2016-07-09 15:09:00][debug] resExit==
+[2016-07-09 15:09:00][debug] $res==1
+[2016-07-09 15:09:00][debug] A8024600615990052490160709150854--A802---460061599005249
+[2016-07-09 15:09:00][debug] 
+			{
+   			"appid": "5ce32242e41f04d4",
+    		"token": "83036024F795674E1D11100192450F55",
+    		"dt": "1468048140",
+    		"imsi": "460061599005249",
+    		"cardtype": "A802",
+    		"tid": "LCXT4009092001201607098644740407"
+			}
+[2016-07-09 15:09:00][debug] 200---2
+[2016-07-09 15:09:00][debug] {"code":0}----0
+[2016-07-09 15:09:00][debug] 充值完成----
+[2016-07-09 15:11:23][debug] 11111111111111111111111111111111111111!
+[2016-07-09 15:11:23][debug] begin notify!
+[2016-07-09 15:11:23][debug] NativeNotify call back:{"appid":"wx849b4af35a7b7ea4","openid":"ohiZht-rU8REF5hny6znanIhCtlw","mch_id":"1275811401","is_subscribe":"Y","nonce_str":"c3ocdgBhAFSgoHEG","product_id":"A703460061599005249","sign":"A129D09EA64A120DF6978096000EA725"}
+[2016-07-09 15:11:23][debug] NativeNotify unifiedorder:{"appid":"wx849b4af35a7b7ea4","code_url":"weixin:\/\/wxpay\/bizpayurl?pr=s80Bsjw","mch_id":"1275811401","nonce_str":"6c7GlrzAGykOguPC","prepay_id":"wx20160709151123576c2da6cd0117553231","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"DAA3645E3E2F149D12DDCC7036FC449F","trade_type":"NATIVE"}
+[2016-07-09 15:11:23][debug] ReplyNotify=<xml><appid><![CDATA[wx849b4af35a7b7ea4]]></appid><err_code_des><![CDATA[OK]]></err_code_des><mch_id>1275811401</mch_id><nonce_str><![CDATA[dxehltyylnannbw1i07rdm7g5d0rh5nv]]></nonce_str><prepay_id><![CDATA[wx20160709151123576c2da6cd0117553231]]></prepay_id><result_code><![CDATA[SUCCESS]]></result_code><return_code><![CDATA[SUCCESS]]></return_code><return_msg><![CDATA[OK]]></return_msg><sign><![CDATA[D3DA881B508022A0ADBD5DDFE5A7086C]]></sign></xml>
+[2016-07-09 15:11:29][debug] 22222222222222222
+[2016-07-09 15:11:29][debug] begin notify
+[2016-07-09 15:11:29][debug] Notify call back:{"appid":"wx849b4af35a7b7ea4","attach":"79\u5143\u6d41\u91cf\u5957\u9910","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1275811401","nonce_str":"ss8b84uth1tqp1c2ajeqw7t69eri4n7x","openid":"ohiZht-rU8REF5hny6znanIhCtlw","out_trade_no":"A7034600615990052490160709151123","result_code":"SUCCESS","return_code":"SUCCESS","sign":"24DD4CF19285561B4D8F7EBA74A17AA8","time_end":"20160709151128","total_fee":"1","trade_type":"NATIVE","transaction_id":"4009092001201607098644807616"}
+[2016-07-09 15:11:29][debug] query:{"appid":"wx849b4af35a7b7ea4","attach":"79\u5143\u6d41\u91cf\u5957\u9910 ","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1275811401","nonce_str":"xt83XH8GIQKcwkM0","openid":"ohiZht-rU8REF5hny6znanIhCtlw","out_trade_no":"A7034600615990052490160709151123","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"B7AF252915F15FA394A092F80097BD75","time_end":"20160709151128","total_fee":"1","trade_state":"SUCCESS","trade_type":"NATIVE","transaction_id":"4009092001201607098644807616"}
+[2016-07-09 15:11:29][debug] ReplyNotify=<xml><return_code><![CDATA[SUCCESS]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>
+[2016-07-09 15:11:29][debug] resExit==
+[2016-07-09 15:11:29][debug] $res==1
+[2016-07-09 15:11:29][debug] A7034600615990052490160709151123--A703---460061599005249
+[2016-07-09 15:11:29][debug] 
+			{
+   			"appid": "5ce32242e41f04d4",
+    		"token": "B91791EE4056862972F7BB342F6752FD",
+    		"dt": "1468048289",
+    		"imsi": "460061599005249",
+    		"cardtype": "A703",
+    		"tid": "LCXT4009092001201607098644807616"
+			}
+[2016-07-09 15:11:29][debug] 200---2
+[2016-07-09 15:11:29][debug] $resjson->code8
+[2016-07-09 15:11:31][debug] A7034600615990052490160709151123--A703---460061599005249
+[2016-07-09 15:11:31][debug] 
+			{
+   			"appid": "5ce32242e41f04d4",
+    		"token": "BDAD04C34A5F6D4FBCFF6C2794D6E182",
+    		"dt": "1468048291",
+    		"imsi": "460061599005249",
+    		"cardtype": "A703",
+    		"tid": "LCXT4009092001201607098644807616"
+			}
+[2016-07-09 15:11:31][debug] 200---2
+[2016-07-09 15:11:31][debug] $resjson->code8
+[2016-07-09 15:11:33][debug] A7034600615990052490160709151123--A703---460061599005249
+[2016-07-09 15:11:33][debug] 
+			{
+   			"appid": "5ce32242e41f04d4",
+    		"token": "E7FD66866538715EFC0F1E2EF6D1888B",
+    		"dt": "1468048293",
+    		"imsi": "460061599005249",
+    		"cardtype": "A703",
+    		"tid": "LCXT4009092001201607098644807616"
+			}
+[2016-07-09 15:11:33][debug] 200---2
+[2016-07-09 15:11:33][debug] $resjson->code8
+[2016-07-09 15:11:35][debug] 充值完成----
+[2016-07-09 15:11:42][debug] 22222222222222222
+[2016-07-09 15:11:42][debug] begin notify
+[2016-07-09 15:11:42][debug] Notify call back:{"appid":"wx849b4af35a7b7ea4","attach":"79\u5143\u6d41\u91cf\u5957\u9910","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1275811401","nonce_str":"ss8b84uth1tqp1c2ajeqw7t69eri4n7x","openid":"ohiZht-rU8REF5hny6znanIhCtlw","out_trade_no":"A7034600615990052490160709151123","result_code":"SUCCESS","return_code":"SUCCESS","sign":"24DD4CF19285561B4D8F7EBA74A17AA8","time_end":"20160709151128","total_fee":"1","trade_type":"NATIVE","transaction_id":"4009092001201607098644807616"}
+[2016-07-09 15:11:42][debug] query:{"appid":"wx849b4af35a7b7ea4","attach":"79\u5143\u6d41\u91cf\u5957\u9910 ","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1275811401","nonce_str":"aj4ONLD1mwdkoPLE","openid":"ohiZht-rU8REF5hny6znanIhCtlw","out_trade_no":"A7034600615990052490160709151123","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"FBF2E9CF247681E7EC87137A43166E59","time_end":"20160709151128","total_fee":"1","trade_state":"SUCCESS","trade_type":"NATIVE","transaction_id":"4009092001201607098644807616"}
+[2016-07-09 15:11:42][debug] ReplyNotify=<xml><return_code><![CDATA[SUCCESS]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>
+[2016-07-09 15:11:42][debug] resExit==1
+[2016-07-09 15:11:42][debug] 充值完成----
+[2016-07-09 15:12:23][debug] 11111111111111111111111111111111111111!
+[2016-07-09 15:12:23][debug] begin notify!
+[2016-07-09 15:12:23][debug] NativeNotify call back:{"appid":"wx849b4af35a7b7ea4","openid":"ohiZht-rU8REF5hny6znanIhCtlw","mch_id":"1275811401","is_subscribe":"Y","nonce_str":"B4gQQBQN4BUdcuXT","product_id":"A804460061599005249","sign":"E2217EEF2CBB635F6A998470F898AB46"}
+[2016-07-09 15:12:23][debug] NativeNotify unifiedorder:{"appid":"wx849b4af35a7b7ea4","code_url":"weixin:\/\/wxpay\/bizpayurl?pr=vPrLxWz","mch_id":"1275811401","nonce_str":"ntssRbmApgV8sNFc","prepay_id":"wx20160709151223e3de77b7f00951520922","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"F41B9B4B3BC7C9603AE8A28A8C7AFB80","trade_type":"NATIVE"}
+[2016-07-09 15:12:23][debug] ReplyNotify=<xml><appid><![CDATA[wx849b4af35a7b7ea4]]></appid><err_code_des><![CDATA[OK]]></err_code_des><mch_id>1275811401</mch_id><nonce_str><![CDATA[quh7ol4txtn4a86mhxxll4gmr32mwyt2]]></nonce_str><prepay_id><![CDATA[wx20160709151223e3de77b7f00951520922]]></prepay_id><result_code><![CDATA[SUCCESS]]></result_code><return_code><![CDATA[SUCCESS]]></return_code><return_msg><![CDATA[OK]]></return_msg><sign><![CDATA[541BCF360D1F60B8029ACADE534FB510]]></sign></xml>
+[2016-07-09 15:12:29][debug] 22222222222222222
+[2016-07-09 15:12:29][debug] begin notify
+[2016-07-09 15:12:29][debug] Notify call back:{"appid":"wx849b4af35a7b7ea4","attach":"79\u5143\u6d41\u91cf\u5957\u9910","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1275811401","nonce_str":"rvm3n0abbbt5mb952q1ovlt69mjuonbs","openid":"ohiZht-rU8REF5hny6znanIhCtlw","out_trade_no":"A8044600615990052490160709151223","result_code":"SUCCESS","return_code":"SUCCESS","sign":"80EA4E0787B9B1FAF635FE258F8A51D2","time_end":"20160709151228","total_fee":"1","trade_type":"NATIVE","transaction_id":"4009092001201607098643967266"}
+[2016-07-09 15:12:29][debug] query:{"appid":"wx849b4af35a7b7ea4","attach":"79\u5143\u6d41\u91cf\u5957\u9910 ","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1275811401","nonce_str":"lM670gSDmO6U4UPA","openid":"ohiZht-rU8REF5hny6znanIhCtlw","out_trade_no":"A8044600615990052490160709151223","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"27F2D6682EC71C67802E576224391916","time_end":"20160709151228","total_fee":"1","trade_state":"SUCCESS","trade_type":"NATIVE","transaction_id":"4009092001201607098643967266"}
+[2016-07-09 15:12:29][debug] ReplyNotify=<xml><return_code><![CDATA[SUCCESS]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>
+[2016-07-09 15:12:29][debug] resExit==
+[2016-07-09 15:12:29][debug] $res==1
+[2016-07-09 15:12:29][debug] A8044600615990052490160709151223--A804---460061599005249
+[2016-07-09 15:12:29][debug] 
+			{
+   			"appid": "5ce32242e41f04d4",
+    		"token": "57488D55F79A9CF28312B9D208804047",
+    		"dt": "1468048349",
+    		"imsi": "460061599005249",
+    		"cardtype": "A804",
+    		"tid": "LCXT4009092001201607098643967266"
+			}
+[2016-07-09 15:12:29][debug] 200---2
+[2016-07-09 15:12:29][debug] $resjson->code8
+[2016-07-09 15:12:31][debug] A8044600615990052490160709151223--A804---460061599005249
+[2016-07-09 15:12:31][debug] 
+			{
+   			"appid": "5ce32242e41f04d4",
+    		"token": "5E03885B0ED6834285383959A974B4A0",
+    		"dt": "1468048351",
+    		"imsi": "460061599005249",
+    		"cardtype": "A804",
+    		"tid": "LCXT4009092001201607098643967266"
+			}
+[2016-07-09 15:12:31][debug] 200---2
+[2016-07-09 15:12:31][debug] $resjson->code8
+[2016-07-09 15:12:33][debug] A8044600615990052490160709151223--A804---460061599005249
+[2016-07-09 15:12:33][debug] 
+			{
+   			"appid": "5ce32242e41f04d4",
+    		"token": "2EFA26868810526824A993F08A83B73C",
+    		"dt": "1468048353",
+    		"imsi": "460061599005249",
+    		"cardtype": "A804",
+    		"tid": "LCXT4009092001201607098643967266"
+			}
+[2016-07-09 15:12:33][debug] 200---2
+[2016-07-09 15:12:33][debug] $resjson->code8
+[2016-07-09 15:12:35][debug] 充值完成----
+[2016-07-09 15:12:45][debug] 22222222222222222
+[2016-07-09 15:12:45][debug] begin notify
+[2016-07-09 15:12:45][debug] Notify call back:{"appid":"wx849b4af35a7b7ea4","attach":"79\u5143\u6d41\u91cf\u5957\u9910","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1275811401","nonce_str":"rvm3n0abbbt5mb952q1ovlt69mjuonbs","openid":"ohiZht-rU8REF5hny6znanIhCtlw","out_trade_no":"A8044600615990052490160709151223","result_code":"SUCCESS","return_code":"SUCCESS","sign":"80EA4E0787B9B1FAF635FE258F8A51D2","time_end":"20160709151228","total_fee":"1","trade_type":"NATIVE","transaction_id":"4009092001201607098643967266"}
+[2016-07-09 15:12:45][debug] query:{"appid":"wx849b4af35a7b7ea4","attach":"79\u5143\u6d41\u91cf\u5957\u9910 ","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1275811401","nonce_str":"cF9SfD6BCABLRlnU","openid":"ohiZht-rU8REF5hny6znanIhCtlw","out_trade_no":"A8044600615990052490160709151223","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"4097030B5DC759DE10F37B096512CD41","time_end":"20160709151228","total_fee":"1","trade_state":"SUCCESS","trade_type":"NATIVE","transaction_id":"4009092001201607098643967266"}
+[2016-07-09 15:12:45][debug] ReplyNotify=<xml><return_code><![CDATA[SUCCESS]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>
+[2016-07-09 15:12:45][debug] resExit==1
+[2016-07-09 15:12:45][debug] 充值完成----
+[2016-07-09 15:13:19][debug] 11111111111111111111111111111111111111!
+[2016-07-09 15:13:19][debug] begin notify!
+[2016-07-09 15:13:19][debug] NativeNotify call back:{"appid":"wx849b4af35a7b7ea4","openid":"ohiZht-rU8REF5hny6znanIhCtlw","mch_id":"1275811401","is_subscribe":"Y","nonce_str":"IBSuMZc7ABaGsIxQ","product_id":"A805460061599005249","sign":"C33E94ABC739048D3BB3B954FF5FBA45"}
+[2016-07-09 15:13:19][debug] NativeNotify unifiedorder:{"appid":"wx849b4af35a7b7ea4","code_url":"weixin:\/\/wxpay\/bizpayurl?pr=hxo5PtG","mch_id":"1275811401","nonce_str":"SKr2te9ytVhKBuIK","prepay_id":"wx2016070915131968c2c6aaa90281898587","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"71E7FCC886A8B40731C9FD73C839F07B","trade_type":"NATIVE"}
+[2016-07-09 15:13:19][debug] ReplyNotify=<xml><appid><![CDATA[wx849b4af35a7b7ea4]]></appid><err_code_des><![CDATA[OK]]></err_code_des><mch_id>1275811401</mch_id><nonce_str><![CDATA[rb4v5p8z27ltv7doi6ed8ejdqto8t214]]></nonce_str><prepay_id><![CDATA[wx2016070915131968c2c6aaa90281898587]]></prepay_id><result_code><![CDATA[SUCCESS]]></result_code><return_code><![CDATA[SUCCESS]]></return_code><return_msg><![CDATA[OK]]></return_msg><sign><![CDATA[0810E64F98DC8C5EB26885D2985D9567]]></sign></xml>
+[2016-07-09 15:13:25][debug] 22222222222222222
+[2016-07-09 15:13:25][debug] begin notify
+[2016-07-09 15:13:25][debug] Notify call back:{"appid":"wx849b4af35a7b7ea4","attach":"79\u5143\u6d41\u91cf\u5957\u9910","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1275811401","nonce_str":"7to1js6qu12x2hpx0w0duwdoe151wfp0","openid":"ohiZht-rU8REF5hny6znanIhCtlw","out_trade_no":"A8054600615990052490160709151319","result_code":"SUCCESS","return_code":"SUCCESS","sign":"E672569FA66B14EBF727D7F693A93F10","time_end":"20160709151324","total_fee":"1","trade_type":"NATIVE","transaction_id":"4009092001201607098643977773"}
+[2016-07-09 15:13:25][debug] query:{"appid":"wx849b4af35a7b7ea4","attach":"79\u5143\u6d41\u91cf\u5957\u9910 ","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1275811401","nonce_str":"kT4gVDjvRcaN9keP","openid":"ohiZht-rU8REF5hny6znanIhCtlw","out_trade_no":"A8054600615990052490160709151319","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"3A0D77F2B18CC957D20193A7AA426DAC","time_end":"20160709151324","total_fee":"1","trade_state":"SUCCESS","trade_type":"NATIVE","transaction_id":"4009092001201607098643977773"}
+[2016-07-09 15:13:25][debug] ReplyNotify=<xml><return_code><![CDATA[SUCCESS]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>
+[2016-07-09 15:13:25][debug] resExit==
+[2016-07-09 15:13:25][debug] $res==1
+[2016-07-09 15:13:25][debug] A8054600615990052490160709151319--A805---460061599005249
+[2016-07-09 15:13:25][debug] 
+			{
+   			"appid": "5ce32242e41f04d4",
+    		"token": "07B559167A50815F950BBF2D4F4CF21F",
+    		"dt": "1468048405",
+    		"imsi": "460061599005249",
+    		"cardtype": "A805",
+    		"tid": "LCXT4009092001201607098643977773"
+			}
+[2016-07-09 15:13:25][debug] 200---2
+[2016-07-09 15:13:25][debug] {"code":0}----0
+[2016-07-09 15:13:25][debug] 充值完成----
+[2016-07-09 19:07:34][debug] 11111111111111111111111111111111111111!
+[2016-07-09 19:07:34][debug] begin notify!
+[2016-07-09 19:07:34][debug] NativeNotify call back:{"appid":"wx849b4af35a7b7ea4","openid":"ohiZht-rU8REF5hny6znanIhCtlw","mch_id":"1275811401","is_subscribe":"Y","nonce_str":"c3oyjF5AN1mf4qpL","product_id":"A711460061599005249","sign":"1D8CAB4EBB46731A82F09EB289609A55"}
+[2016-07-09 19:07:35][debug] NativeNotify unifiedorder:{"appid":"wx849b4af35a7b7ea4","code_url":"weixin:\/\/wxpay\/bizpayurl?pr=pJrN1my","mch_id":"1275811401","nonce_str":"RxgkWRVLqdTZN43G","prepay_id":"wx20160709190734a29a95f4f40079735888","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"46007D94838E4ABE98966EFCCA6BD552","trade_type":"NATIVE"}
+[2016-07-09 19:07:35][debug] ReplyNotify=<xml><appid><![CDATA[wx849b4af35a7b7ea4]]></appid><err_code_des><![CDATA[OK]]></err_code_des><mch_id>1275811401</mch_id><nonce_str><![CDATA[1q7xaalfs0jthrewddf2l42jurjyhg86]]></nonce_str><prepay_id><![CDATA[wx20160709190734a29a95f4f40079735888]]></prepay_id><result_code><![CDATA[SUCCESS]]></result_code><return_code><![CDATA[SUCCESS]]></return_code><return_msg><![CDATA[OK]]></return_msg><sign><![CDATA[597680287DCC0F2B34C5C70AAD104F0D]]></sign></xml>
+[2016-07-09 19:07:42][debug] 22222222222222222
+[2016-07-09 19:07:42][debug] begin notify
+[2016-07-09 19:07:42][debug] Notify call back:{"appid":"wx849b4af35a7b7ea4","attach":"\u5957\u9910\u8d2d\u4e70","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1275811401","nonce_str":"tb4vpqwxzq7gji3womkgjxu4b81t3b2k","openid":"ohiZht-rU8REF5hny6znanIhCtlw","out_trade_no":"A7114600615990052490160709190734","result_code":"SUCCESS","return_code":"SUCCESS","sign":"D6904BE19ED6DE2BC7B22D0F50A1D9FC","time_end":"20160709190741","total_fee":"1","trade_type":"NATIVE","transaction_id":"4009092001201607098657714369"}
+[2016-07-09 19:07:42][debug] query:{"appid":"wx849b4af35a7b7ea4","attach":"\u5957\u9910\u8d2d\u4e70 ","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1275811401","nonce_str":"NkyzP5eGQI67i46f","openid":"ohiZht-rU8REF5hny6znanIhCtlw","out_trade_no":"A7114600615990052490160709190734","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"2832C1416A2ADD2EE353067178F1FDDB","time_end":"20160709190741","total_fee":"1","trade_state":"SUCCESS","trade_type":"NATIVE","transaction_id":"4009092001201607098657714369"}
+[2016-07-09 19:07:42][debug] ReplyNotify=<xml><return_code><![CDATA[SUCCESS]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>
+[2016-07-09 19:07:42][debug] resExit==
+[2016-07-09 19:07:42][debug] $res==1
+[2016-07-09 19:07:42][debug] A7114600615990052490160709190734--A711---460061599005249
+[2016-07-09 19:07:42][debug] 
+			{
+   			"appid": "5ce32242e41f04d4",
+    		"token": "D15E91A1BF8E0A032144C0CE1AD761A2",
+    		"dt": "1468062462",
+    		"imsi": "460061599005249",
+    		"cardtype": "A711",
+    		"tid": "LCXT4009092001201607098657714369"
+			}
+[2016-07-09 19:07:43][debug] 200---2
+[2016-07-09 19:07:43][debug] $resjson->code8
+[2016-07-09 19:07:45][debug] A7114600615990052490160709190734--A711---460061599005249
+[2016-07-09 19:07:45][debug] 
+			{
+   			"appid": "5ce32242e41f04d4",
+    		"token": "E9EEAD0994078039B6E776DE7ADDCE7B",
+    		"dt": "1468062465",
+    		"imsi": "460061599005249",
+    		"cardtype": "A711",
+    		"tid": "LCXT4009092001201607098657714369"
+			}
+[2016-07-09 19:07:45][debug] 200---2
+[2016-07-09 19:07:45][debug] $resjson->code8
+[2016-07-09 19:07:47][debug] A7114600615990052490160709190734--A711---460061599005249
+[2016-07-09 19:07:47][debug] 
+			{
+   			"appid": "5ce32242e41f04d4",
+    		"token": "1F0BE8BD6C4E455BE9FA8CF985786326",
+    		"dt": "1468062467",
+    		"imsi": "460061599005249",
+    		"cardtype": "A711",
+    		"tid": "LCXT4009092001201607098657714369"
+			}
+[2016-07-09 19:07:47][debug] 200---2
+[2016-07-09 19:07:47][debug] $resjson->code8
+[2016-07-09 19:07:49][debug] 460061599005249--A711--未充值成功
+[2016-07-09 19:07:59][debug] 22222222222222222
+[2016-07-09 19:07:59][debug] begin notify
+[2016-07-09 19:07:59][debug] Notify call back:{"appid":"wx849b4af35a7b7ea4","attach":"\u5957\u9910\u8d2d\u4e70","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1275811401","nonce_str":"tb4vpqwxzq7gji3womkgjxu4b81t3b2k","openid":"ohiZht-rU8REF5hny6znanIhCtlw","out_trade_no":"A7114600615990052490160709190734","result_code":"SUCCESS","return_code":"SUCCESS","sign":"D6904BE19ED6DE2BC7B22D0F50A1D9FC","time_end":"20160709190741","total_fee":"1","trade_type":"NATIVE","transaction_id":"4009092001201607098657714369"}
+[2016-07-09 19:08:00][debug] query:{"appid":"wx849b4af35a7b7ea4","attach":"\u5957\u9910\u8d2d\u4e70 ","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1275811401","nonce_str":"lXSr82GKaayWFFl3","openid":"ohiZht-rU8REF5hny6znanIhCtlw","out_trade_no":"A7114600615990052490160709190734","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"977DFA5380030129358BB4C165236BFE","time_end":"20160709190741","total_fee":"1","trade_state":"SUCCESS","trade_type":"NATIVE","transaction_id":"4009092001201607098657714369"}
+[2016-07-09 19:08:00][debug] ReplyNotify=<xml><return_code><![CDATA[SUCCESS]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>
+[2016-07-09 19:08:00][debug] resExit==1
+[2016-07-09 21:08:49][debug] 22222222222222222
+[2016-07-09 21:08:49][debug] begin notify

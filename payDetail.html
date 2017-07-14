@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="ic_launcher.png">
+    <title>套餐详情</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="intercom.css" rel="stylesheet">
+    <script src="js/jquery.js" charset="utf-8"></script>
+    <script src="js/jquery.qrcode.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+    (function ($) {
+      $(document).ready(function(){
+
+        $.getUrlParam = function (name) {
+          var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+          var r = window.location.search.substr(1).match(reg);
+          if (r != null) return unescape(r[2]); return null;
+        }
+
+        var params = $.getUrlParam('channel');
+        console.log(params);
+
+        $(".qrcode").qrcode({width: 200,height: 200,text: params});
+      });
+
+    })(jQuery);
+
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header clearfix">
+        <h3 class="text-muted">小新对讲授权平台</h3>
+      </div>
+      <div class="row marketing payDetailContainer">
+        <div class="col-lg-6 col-sm-6 payDetail">
+          <p>套餐名称: 按次数收费</p>
+          <p>套餐说明: 每登录一次算开始，退出登录算结束。</p>
+          <p>一口价: 一块钱/次</p>
+          <p>写点啥呢</p>
+          <p>写点啥呢</p>
+
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <p>用微信“扫一扫”进行支付</p>
+          <div class="qrcode"/>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
