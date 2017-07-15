@@ -4,24 +4,42 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="ic_launcher.png">
+    <link rel="icon" href="../img/ic_launcher.png">
     <title>套餐详情</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="intercom.css" rel="stylesheet">
-    <script src="js/jquery.js" charset="utf-8"></script>
-    <script src="js/jquery.qrcode.min.js" charset="utf-8"></script>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/intercom.css" rel="stylesheet">
+    <script src="../js/jquery.js" charset="utf-8"></script>
+    <script src="../js/jquery.qrcode.min.js" charset="utf-8"></script>
     <script type="text/javascript">
     (function ($) {
-      $.getUrlParam = function (name) {
+      function getUrlParam(name) {
         var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
         var r = window.location.search.substr(1).match(reg);
         if (r != null) return unescape(r[2]); return null;
       }
       $(document).ready(function(){
-        var params = $.getUrlParam('channel');
-        console.log(params);
+        var channel = getUrlParam('channel');
+        var username = getUrlParam('username');
+        var billId = getUrlParam('billid');
+        var productid = channel+"@@"+username+"@@"+billId;
+        console.log("productid: "+productid);
+        //TODO 获取二维码连接
+        var getQrcodeUrl = "../php/payindex/native.php?productid="+productid;
 
-        $(".qrcode").qrcode({width: 200,height: 200,text: params});
+        $.get(getQrcodeUrl,function(result,status){
+          console.log("qrcode: "+result);
+          $(".qrcode").qrcode({width: 200,height: 200,text: result});
+        })
+        var getBillDetailUrl = "../php/getBillList/getBillDetail.php?channel="+channel+"&billid="+billId;
+        console.log(getBillDetailUrl);
+        $.get(getBillDetailUrl,function(result,status){
+          console.log("bill detail: "+result);
+          var json = eval('('+result+')');
+          $("#billName").html(json.billName);
+          $("#billDescribe").html(json.billDescribe);
+          $("#billPrice").html((json.billPrice/100)+"元");
+        });
+
       });
 
     })(jQuery);
@@ -39,15 +57,15 @@
           <table class="table table-striped">
             <tr>
               <td>套餐名称</td>
-              <td>按次数收费</td>
+              <td id="billName">按次数收费</td>
             </tr>
             <tr>
               <td>套餐说明</td>
-              <td>每登录一次算开始，退出登录算结束。</td>
+              <td id="billDescribe">每登录一次算开始，退出登录算结束。</td>
             </tr>
             <tr>
               <td>价格</td>
-              <td>一块钱/次</td>
+              <td id="billPrice">一块钱/次</td>
             </tr>
             <tr>
               <td>写点啥呢</td>

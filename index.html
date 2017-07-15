@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="ic_launcher.png">
+    <link rel="icon" href="img/ic_launcher.png">
     <title>小新对讲</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="intercom.css" rel="stylesheet">
+    <link href="css/intercom.css" rel="stylesheet">
     <script src="js/jquery.js" charset="utf-8"></script>
     <script type="text/javascript">
     (function($){
@@ -16,19 +16,34 @@
         var r = window.location.search.substr(1).match(reg);
         if (r != null) return unescape(r[2]); return null;
       }
+      function billBtnModule(billId,billName,billPrice){
+        return "<div class=\"col-lg-6 col-sm-6 btnContain\"><div class=\"authBtn\" id=\""+billId+"\"><h4>"+billName+"</h4><p>"+billPrice+"</p></div></div>";
+      }
       var channel = getUrlParam("channel");
       var userName = getUrlParam("username");
-      $.get("getBillList.php?channel="+channel+"&username="+userName,function(result,status){
+      $.get("php/getBillList/getBillList.php?channel="+channel+"&username="+userName,function(result,status){
         console.log("====result");
         console.log(result);
+        var json = eval(result);
+        $(".billContainer").html("");
+        $.each(json,function(k,v){
+          console.log(k+"="+v);
+          $(".billContainer").append(billBtnModule(v.billId,v.billName,v.billPrice));
+          $("#"+v.billId).click(function(){
+            window.location.href="html/payDetail.html?channel="+channel+"&username="+userName+"&billid="+v.billId;
+          });
+        })
       });
 
       $(document).ready(function(){
-
-          $(".bill1").click(function(){
-            console.log("click");
-            window.location.href="payDetail.html?channel="+channel+"&username="+userName+"&bill=1";
-          });
+        // $(".billContainer").html("");
+        // var html = "<div class=\"col-lg-6 col-sm-6 btnContain\"><div class=\"authBtn\"><h4>按次收费</h4><p>一次两块钱</p></div></div>";
+        // $(".billContainer").append(html);
+          // $(".bill1").click(function(){
+          //   // 这个用的是div，是不是用li更灵活点？
+          //   console.log("click");
+          //   window.location.href="html/payDetail.html?channel="+channel+"&username="+userName+"&billid=bill9527";
+          // });
         });
     })(jQuery);
 
@@ -45,10 +60,15 @@
         <p class="lead">这里是一坨文案，用来介绍小新对讲和小新对讲授权方式的。</p>
       </div>
 
-      <div class="row marketing">
+      <div class="placeHolder">
+        <!-- 目前没用 -->
+        <h3>套餐详情加载中，请稍后...</h3>
+      </div>
+
+      <div class="row marketing billContainer">
         <div class="col-lg-6 col-sm-6 btnContain">
           <!-- <button onclick="jumpToDetail(58)"> -->
-          <div class="authBtn bill1">
+          <div class="authBtn">
             <h4>按次收费</h4>
             <p>一次一块钱</p>
           </div>

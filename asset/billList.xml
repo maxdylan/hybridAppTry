@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billList>
+  <channel name="abcd1234">
+    <bill>
+      <billId>bill9527</billId>
+      <billName>按次收费</billName>
+      <billDescribe>套餐详情套餐详情套餐详情套餐详情套餐详情套餐详情</billDescribe>
+      <billPrice>1</billPrice>
+    </bill>
+    <bill>
+      <billId>bill9526</billId>
+      <billName>按天收费</billName>
+      <billDescribe>套餐详情套餐详情套餐详情套餐详情套餐详情套餐详情</billDescribe>
+      <billPrice>10</billPrice>
+    </bill>
+    <bill>
+      <billId>bill9525</billId>
+      <billName>按月收费</billName>
+      <billDescribe>套餐详情套餐详情套餐详情套餐详情套餐详情套餐详情</billDescribe>
+      <billPrice>100</billPrice>
+    </bill>
+    <bill>
+      <billId>bill9524</billId>
+      <billName>按年收费</billName>
+      <billDescribe>套餐详情套餐详情套餐详情套餐详情套餐详情套餐详情</billDescribe>
+      <billPrice>1000</billPrice>
+    </bill>
+  </channel>
+</billList>
